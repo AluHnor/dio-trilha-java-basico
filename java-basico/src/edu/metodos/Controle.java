@@ -25,9 +25,9 @@ public class Controle {
     smartTv.desligar();
     System.out.println("Novo Status -> TV Ligada? " + smartTv.ligada);
     
-    // if (novoCanal = 69)
-    // System.out.println("Nice");
-    // else (novoCanal != 69)
-
+    if (smartTv.canal == 69)
+        System.out.println("Nice");
+     else 
+    System.out.println("Not so Nice");
     }
 }
